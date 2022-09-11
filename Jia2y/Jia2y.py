@@ -5,8 +5,7 @@ from typing import Any
 def fibonacci_rec(num: int) -> int:
     if num == 0: return 0
     if num == 1: return 1
-    if num > 1:
-        return fibonacci_rec(num-1) + fibonacci_rec(num-2)
+    return fibonacci_rec(num-1) + fibonacci_rec(num-2)
 # Итерационная реализация
 def fibonacci_iter(num: int) -> int:
     if num == 0: return 0
