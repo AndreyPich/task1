@@ -18,7 +18,7 @@ def fibonacci_iter(num: int) -> int:
     return fib2
 # Определитель матрицы
 def determinant(matrix: [[int]]) -> int:
-    if matrix == 0: return Exception("parametr is not a square matrix") 
+    if matrix == 0: return Exception("Parametr is not a square matrix") 
     if matrix == 1: return matrix[0][0] 
     size = len(matrix)
     if size == 2: return x2(matrix) # если матрица 2х2
